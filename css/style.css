@@ -27,7 +27,14 @@ a.header-btn.download{
 }
 .movie-img img{
     height: 350px;
+    cursor: pointer;
 }
+.features-movies img:hover{
+    cursor: pointer;
+    transform: translateY(10px);
+}
+
+
 /*Responsive*/
 
 @media only screen and ( max-width:668px ) {
